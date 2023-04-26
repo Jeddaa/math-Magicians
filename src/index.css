@@ -1,3 +1,32 @@
 body {
   margin: 0;
+  background-color: #e5e5e5;
+}
+
+h1 {
+  margin-left: 1rem;
+}
+
+.calculator-div {
+  display: grid;
+  margin: 3rem;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  background-color: #2b28284f;
+}
+
+.orange {
+  background-color: #ff893a;
+}
+
+button {
+  border: 1px solid #e5e5e5;
 }
