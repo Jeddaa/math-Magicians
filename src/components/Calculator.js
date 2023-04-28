@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Display from './Display';
 import calculate from '../logic/calculate';
-import Quote from './Quote';
 
 export default function Calculator() {
   const [value, setValue] = useState({ total: '0', next: null, operation: null });
@@ -15,7 +14,6 @@ export default function Calculator() {
 
   return (
     <div className="calculator-div">
-      <Quote />
       <div className="calculator">
         <Display value={value} />
         <button type="button" onClick={handleClick} name="AC">
