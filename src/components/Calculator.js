@@ -24,7 +24,7 @@ export default function Calculator() {
       <button type="button" onClick={handleClick} name="%">
         %
       </button>
-      <button type="button" className="orange" name="÷">
+      <button type="button" className="orange" onClick={handleClick} name="÷">
         ÷
       </button>
       <button type="button" onClick={handleClick} name="7">
