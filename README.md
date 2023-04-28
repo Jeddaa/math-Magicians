@@ -66,6 +66,7 @@ Math magicians is a website for all fans of mathematics. It is a Single Page App
 - Project setup with React
 - Added components
 - Calculator page
+- Calculator functionality
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,7 +158,6 @@ Not available
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Random Math Quote Page
-- Calculator functionality
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
