@@ -7,7 +7,21 @@ h1 {
   margin-left: 1rem;
 }
 
+.quote {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+.author {
+  margin-top: 0;
+}
+
 .calculator-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.calculator {
   display: grid;
   margin: 3rem;
   grid-template-columns: repeat(4, 6rem);
