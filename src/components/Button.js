@@ -1,4 +1,5 @@
-/* eslint-disable react/prop-types */
+import PropTypes from 'prop-types';
+
 export default function Button({ className, value }) {
   return (
     <button type="button" className={className}>
@@ -6,3 +7,5 @@ export default function Button({ className, value }) {
     </button>
   );
 }
+
+Button.propTypes = { className: PropTypes.string.isRequired, value: PropTypes.string.isRequired };
