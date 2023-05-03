@@ -1,6 +1,4 @@
-/* eslint-disable react/jsx-one-expression-per-line */
 import React, { useEffect, useState } from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import axios from 'axios';
 
 const Quote = () => {
@@ -33,7 +31,10 @@ const Quote = () => {
       {fetchData ? (
         <>
           <p className="paragraph">
-            {fetchData.quote} -{fetchData.author}
+            {fetchData.quote}
+            {' '}
+            -
+            {fetchData.author}
           </p>
         </>
       ) : (
