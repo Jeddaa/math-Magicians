@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useState } from 'react';
 import Display from './Display';
 import calculate from '../logic/calculate';
@@ -14,6 +15,7 @@ export default function Calculator() {
 
   return (
     <div className="calculator-div">
+      <h3 className="calculator-text">Let's do some math!</h3>
       <div className="calculator">
         <Display value={value} />
         <button type="button" onClick={handleClick} name="AC">

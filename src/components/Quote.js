@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import React, { useEffect, useState } from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import axios from 'axios';
@@ -31,8 +32,9 @@ const Quote = () => {
     <div className="quote">
       {fetchData ? (
         <>
-          <q className="paragraph">{fetchData.quote}</q>
-          <p className="author">{fetchData.author}</p>
+          <p className="paragraph">
+            {fetchData.quote} -{fetchData.author}
+          </p>
         </>
       ) : (
         <p className="paragraph">{getError}</p>

@@ -1,15 +1,38 @@
 body {
   margin: 0;
   background-color: #e5e5e5;
+  overflow: hidden;
 }
 
 h1 {
   margin-left: 1rem;
+  font-size: 3rem;
+  margin: 0;
 }
 
+.App {
+  padding: 2em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  font-size: 1.5em;
+}
 .quote {
-  margin-left: 1rem;
   font-size: 1.5rem;
+  display: flex;
+  width: 60vw;
+  margin: 0 auto;
+  align-items: center;
+  height: 60vh;
 }
 
 .author {
@@ -18,12 +41,18 @@ h1 {
 
 .calculator-div {
   display: flex;
-  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+}
+
+.calculator-text {
+  margin: 3em 1em;
+  font-size: 3em;
 }
 
 .calculator {
+  border: 1px solid #000;
   display: grid;
-  margin: 3rem;
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
 }
@@ -46,4 +75,27 @@ h1 {
 
 button {
   border: 1px solid #e5e5e5;
+}
+
+.home > p {
+  font-size: 1.3em;
+  text-align: justify;
+}
+
+.paragraph {
+  display: flex;
+}
+
+.link:hover,
+.link:hover:visited {
+  color: #9215b8;
+}
+
+.link:active,
+.link:active:visited {
+  color: #f72f2f;
+}
+
+.link:visited {
+  color: #000;
 }
