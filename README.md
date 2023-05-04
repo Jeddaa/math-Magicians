@@ -135,7 +135,7 @@ npx stylelint "**/*.{css,scss}"
 
 ### Deployment
 
-Not available
+- Visit [Math-Magician](https://math-magicians-wm1p.onrender.com/calculator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
